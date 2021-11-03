@@ -1,17 +1,16 @@
 {
   "name": "typescript-playground",
   "version": "1.0.0",
-  "description": "",
-  "main": "node/index.js",
+  "description": "Quickly run typescript code in IntelliJ",
+  "main": "dist/index.js",
   "scripts": {
     "start": "ts-node src/index.ts",
-    "run:build": "node dist/index.js",
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:build": "node dist/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["typescript", "playground", "intellij", "bootstrap"],
+  "author": "Eddy Brown",
+  "license": "MIT",
   "devDependencies": {
     "@types/node": "^16.11.6",
     "ts-node": "^10.4.0",
